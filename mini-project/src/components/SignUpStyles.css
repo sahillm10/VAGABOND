@@ -1,0 +1,59 @@
+.sign {
+  margin: 4rem auto;
+  color: #2a2a2a;
+  max-width: 600px; /* Limit form width for better readability */
+}
+
+.sign form {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.sign label {
+  margin-bottom: 0.5rem;
+}
+
+.sign input,
+.sign textarea {
+  height: 3rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+.sign input:focus,
+.sign textarea:focus {
+  border-color: rgb(227, 180, 119);
+}
+
+.sign button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  font-weight: 400;
+  font-size: 15px;
+  background-color: rgb(227, 180, 119);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sign button:hover {
+  background-color: rgb(227, 158, 67); /* Darker shade on hover */
+}
+
+.Login {
+  color: rgb(227, 180, 119);
+  text-decoration: none;
+}
+
+.Login:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 850px) {
+}

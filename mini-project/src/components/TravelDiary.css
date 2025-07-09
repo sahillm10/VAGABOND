@@ -1,0 +1,18 @@
+.traveldiary {
+  margin: 4rem 6rem;
+  text-align: start;
+}
+
+.traveldiary h1 {
+  padding-bottom: 1rem;
+}
+
+.traveldiary p {
+  padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 850px) {
+  .about {
+    margin: 4rem 2rem;
+  }
+}

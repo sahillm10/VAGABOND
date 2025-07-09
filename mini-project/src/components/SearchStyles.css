@@ -1,0 +1,31 @@
+.form-container {
+  margin-bottom: 20px;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-container input[type="text"] {
+  width: 50%;
+  padding: 8px;
+  margin: 15px 0px 0px 0px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+}
+
+.form-container input[type="submit"] {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: rgb(227, 180, 119);
+  color: white;
+  padding: 10px 100px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.form-container input[type="submit"]:hover {
+  background-color: rgb(227, 158, 67);
+}

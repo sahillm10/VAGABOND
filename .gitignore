@@ -1,0 +1,37 @@
+# Logs
+mini-project/logs
+mini-project/*.log
+mini-project/npm-debug.log*
+mini-project/yarn-debug.log*
+mini-project/yarn-error.log*
+mini-project/pnpm-debug.log*
+mini-project/lerna-debug.log*
+
+mini-project/node_modules
+mini-project/dist
+mini-project/dist-ssr
+mini-project/*.local
+
+Server/logs
+Server/*.log
+Server/npm-debug.log*
+Server/yarn-debug.log*
+Server/yarn-error.log*
+Server/pnpm-debug.log*
+Server/lerna-debug.log*
+
+Server/node_modules
+Server/dist
+Server/dist-ssr
+Server/*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
